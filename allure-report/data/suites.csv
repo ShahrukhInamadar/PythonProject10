@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1306","test_login[student-Password123-5-3]","tests","Fri Jul 25 21:15:26 IST 2025","passed","Fri Jul 25 21:15:27 IST 2025","TestLogin","test_loginpage","",""
+"","458","test_login[student-wrongpassword-7-3]","tests","Fri Jul 25 21:15:39 IST 2025","failed","Fri Jul 25 21:15:40 IST 2025","TestLogin","test_loginpage","",""
+"","395","test_login[student-wrongpassword-4-3]","tests","Fri Jul 25 21:15:19 IST 2025","failed","Fri Jul 25 21:15:20 IST 2025","TestLogin","test_loginpage","",""
+"","475","test_login[wronguser-Password123-6-3]","tests","Fri Jul 25 21:15:33 IST 2025","failed","Fri Jul 25 21:15:33 IST 2025","TestLogin","test_loginpage","",""
+"","451","test_login[wronguser-Password123-3-3]","tests","Fri Jul 25 21:15:13 IST 2025","failed","Fri Jul 25 21:15:14 IST 2025","TestLogin","test_loginpage","",""
+"","1158","test_login[student-Password123-2-3]","tests","Fri Jul 25 21:15:06 IST 2025","passed","Fri Jul 25 21:15:07 IST 2025","TestLogin","test_loginpage","",""
