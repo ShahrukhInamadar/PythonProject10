@@ -28,6 +28,15 @@ jobs:
         run: |
           pytest --alluredir=allure-results
 
+      - name: Install Allure CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openjdk-11-jre
+          wget https://github.com/allure-framework/allure2/releases/download/2.21.0/allure-2.21.0.tgz
+          tar -zxvf allure-2.21.0.tgz
+          sudo mv allure-2.21.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+
       - name: Generate Allure report
         run: |
           allure generate allure-results -o allure-report --clean
